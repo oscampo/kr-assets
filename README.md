@@ -59,6 +59,7 @@ assets for KR
 - [2025-11-12](2025-11-12.md)
 - [2025-11-13](2025-11-13.md)
 - [2025-11-14](2025-11-14.md)
+- [2025-11-15](2025-11-15.md)
 - [Sin fecha reconocible](sin_fecha.md)
 
 *Cada grupo contiene las imágenes relacionadas por día o sin fecha reconocible en el nombre.*
