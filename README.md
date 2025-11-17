@@ -1,5 +1,3 @@
-# kr-assets
-assets for KR
 # Galería de imágenes agrupadas
 
 - [2025-09-16](2025-09-16.md)
@@ -60,7 +58,8 @@ assets for KR
 - [2025-11-13](2025-11-13.md)
 - [2025-11-14](2025-11-14.md)
 - [2025-11-15](2025-11-15.md)
+- [2025-11-16](2025-11-16.md)
+- [2025-11-17](2025-11-17.md)
 - [Sin fecha reconocible](sin_fecha.md)
 
-*Cada grupo contiene las imágenes relacionadas por día o sin fecha reconocible en el nombre.*
-
+*Cada grupo contiene las imágenes relacionadas por día o sin fecha reconocible en el nombre, en filas de 10 elementos.*
