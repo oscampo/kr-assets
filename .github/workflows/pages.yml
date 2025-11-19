@@ -1,10 +1,26 @@
+name: Deploy GitHub Pages
+
 on:
   push:
+    # Ignora cambios en imágenes (añade o ajusta extensiones/rutas según usas)
+    paths-ignore:
+      - 'img/**/*.png'
+      - 'img/**/*.jpg'
+      - 'img/**/*.jpeg'
+      - 'img/**/*.gif'
+      - 'img/**/*.svg'
+      - 'img/**/*.bmp'
+      - 'img/**/*.webp'
+      - 'img/**/*.tiff'
+      - 'img/**/*.ico'
     paths:
       - '**.md'
       - '**.html'
       - 'img/deploy.txt'
-    paths-ignore:
-      - 'img/**/*.png'
-      - 'img/**/*.jpg'
-      # (todas las extensiones que desees)
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # (Aquí va tu proceso normal de deploy/build)
+      - uses: actions/checkout@v4
+      # ...Más pasos según configures tu build/deploy...
