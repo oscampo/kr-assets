@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build-My-Page
 
 # Controls when the workflow will run
 on:
@@ -20,6 +20,16 @@ on:
       - 'img/**/*.ico'
   pull_request:
     branches: [ "main" ]
+    paths-ignore:
+      - 'img/**/*.png'
+      - 'img/**/*.jpg'
+      - 'img/**/*.jpeg'
+      - 'img/**/*.gif'
+      - 'img/**/*.svg'
+      - 'img/**/*.bmp'
+      - 'img/**/*.webp'
+      - 'img/**/*.tiff'
+      - 'img/**/*.ico'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
