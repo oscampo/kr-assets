@@ -2,10 +2,6 @@ name: Deploy GitHub Pages
 
 on:
   push:
-    paths:
-      - '**.md'
-      - '**.html'
-      - 'img/deploy.txt'
     # Ignora cambios en imágenes (añade o ajusta extensiones/rutas según usas)
     paths-ignore:
       - 'img/**/*.png'
