@@ -1,0 +1,10 @@
+on:
+  push:
+    paths:
+      - '**.md'
+      - '**.html'
+      - 'img/deploy.txt'
+    paths-ignore:
+      - 'img/**/*.png'
+      - 'img/**/*.jpg'
+      # (todas las extensiones que desees)
