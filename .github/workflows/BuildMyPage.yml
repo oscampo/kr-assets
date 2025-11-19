@@ -9,6 +9,7 @@ on:
       - 'img/**/*.jpeg'
       - 'img/**/*.gif'
       - 'img/**/*.svg'
+      - 'img/**/*.mp4'
       # ... (resto de tus ignorados) ...
   pull_request:
     branches: [ "main" ]
