@@ -1,18 +1,7 @@
 name: Build-My-Page
 
+# Solo manual: las imagenes se sirven desde raw.githubusercontent.com, ya no hace falta desplegar en cada push.
 on:
-  push:
-    branches: [ "main" ]
-    paths-ignore:
-      - 'img/**/*.png'
-      - 'img/**/*.jpg'
-      - 'img/**/*.jpeg'
-      - 'img/**/*.gif'
-      - 'img/**/*.svg'
-      - 'img/**/*.mp4'
-      # ... (resto de tus ignorados) ...
-  pull_request:
-    branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
@@ -34,9 +23,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # 🟢 PASO EXTRA RECOMENDADO:
-      # Esto asegura que GitHub no trate de "procesar" tu sitio con Jekyll.
-      # Es vital si usas carpetas que inician con "_" o solo quieres servir HTML puro.
       - name: Disable Jekyll
         run: touch .nojekyll
 
